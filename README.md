@@ -27,7 +27,7 @@ This modification enables the device to:
 ## MIDI Specification
 
 - **Input**: MIDI Program Change (PC) messages (status byte 0xCn where n = channel)
-- **Baud Rate**: 31250 (MIDI standard)
+- **Baud Rate**: 31,250 (MIDI standard)
 - **Channel**: Configurable or fixed (to be determined during implementation)
 
 ## Data Structure
