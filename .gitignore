@@ -1,0 +1,23 @@
+.pio/
+.pioenvs/
+.piolibdeps/
+.idea/
+*.iml
+cmake-build-*/
+.DS_Store
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.exe
+*~
+*.swp
+*.bak
+*.tmp
+build/
+lib/
+include/
+# Uncomment below if you want to ignore all test output
+# test/
+
