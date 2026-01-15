@@ -53,10 +53,7 @@ This project uses PlatformIO. To build and upload:
 # Build the project
 pio run
 
-# Upload to board
-pio run --target upload
-
-# Build and upload
+# Build and upload to board
 pio run --target upload
 ```
 

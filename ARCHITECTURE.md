@@ -20,8 +20,8 @@ The PedalPCB Expresso expression multiplexer includes:
 
 The MIDI modification requires adding a MIDI input circuit:
 
-- **Optocoupler**: H11L1M or 6N138 for MIDI signal isolation
-- **Current Limiting Resistor**: On MIDI input line (typically 220Ω)
+- **Optocoupler**: 6N138 (or H11L1M) for MIDI signal isolation (6N138 is preferred for MIDI applications)
+- **Current Limiting Resistor**: 220Ω between MIDI input and optocoupler LED cathode
 - **Pull-up Resistor**: On optocoupler output to ATmega328P
 - **Connection**: Optocoupler output to PD0/RX (pin 2)
 
